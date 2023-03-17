@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LABORATORIO_01</string>
+    <string name="Font_resource">serif-monospace</string>
+    <string name="Text_of_view">Programaciòn de dispositivos mòviles</string>
+    <string name="Text_of_view_1">Bienvenido a</string>
+</resources>
