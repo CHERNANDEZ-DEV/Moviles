@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">35sp</dimen>
+    <dimen name="accountSize">60sp</dimen>
+    <dimen name="lmt_title">32dp</dimen>
+    <dimen name="lmt_account">32dp</dimen>
+    <dimen name="lw_IV_fiveCent">180dp</dimen>
+    <dimen name="lh_IV_fiveCent">151dp</dimen>
+    <dimen name="lw_IV_tenCent">180dp</dimen>
+    <dimen name="lh_IV_tenCent">151dp</dimen>
+    <dimen name="lw_IV_quarterCent">180dp</dimen>
+    <dimen name="lh_IV_quarterCent">151dp</dimen>
+    <dimen name="lw_IV_DollarCent">180dp</dimen>
+    <dimen name="lh_IV_DollarCent">151dp</dimen>
+    <dimen name="lme_tenCent">80dp</dimen>
+    <dimen name="lme_DollarCent">80dp</dimen>
+</resources>
