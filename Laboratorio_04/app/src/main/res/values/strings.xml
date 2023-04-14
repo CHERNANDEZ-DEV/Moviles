@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">¡Information!</string>
+    <string name="titleText">RELLENA LA SIGUIENTE INFORMACION</string>
+    <string name="nameHint">Nombre</string>
+    <string name="correoHint">Correo</string>
+    <string name="numberHint">Numero de telefono</string>
+    <string name="textC">Correo electronico:</string>
+    <string name="share">Share</string>
+    <string name="N">Nombre:</string>
+    <string name="NUM">Numero de telefono:</string>
+</resources>

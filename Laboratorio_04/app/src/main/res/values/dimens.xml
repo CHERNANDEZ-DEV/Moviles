@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LMT">52dp</dimen>
+    <dimen name="LMS">24dp</dimen>
+    <dimen name="LMT_name">32dp</dimen>
+    <dimen name="LME_name">24dp</dimen>
+    <dimen name="correoLMS">24dp</dimen>
+    <dimen name="LMT_correo">32dp</dimen>
+    <dimen name="LME_correo">24dp</dimen>
+    <dimen name="LMSnumber">24dp</dimen>
+    <dimen name="LMT_number">32dp</dimen>
+    <dimen name="LMENumber">24dp</dimen>
+    <dimen name="LMTBUTTON">32dp</dimen>
+    <dimen name="LMT_n">40dp</dimen>
+    <dimen name="LMTc">40dp</dimen>
+    <dimen name="LMEc">24dp</dimen>
+    <dimen name="LMTnT">28dp</dimen>
+    <dimen name="LMB">284dp</dimen>
+    <dimen name="LMTNO">28dp</dimen>
+    <dimen name="LMTNU">40dp</dimen>
+    <dimen name="LMTE">40dp</dimen>
+    <dimen name="LMTTITLE">32dp</dimen>
+</resources>
