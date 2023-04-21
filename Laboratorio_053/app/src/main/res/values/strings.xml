@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Laboratorio_05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="billboardT">Billboard</string>
+    <string name="NmovieTitle">New Movie</string>
+    <string name="H_name">Name</string>
+    <string name="H_category">Category</string>
+    <string name="Hdescription">Description</string>
+    <string name="Hcalification">Calification</string>
+    <string name="Submitbtn">Submit</string>
+    <string name="SWtitle">Star Wars episode 3: La venganza de los Sith</string>
+    <string name="SWcalification">9.8</string>
+    <string name="HpTitle">Harry Potter y la Piedra Filosofal</string>
+    <string name="HpCalification">9.5</string>
+    <string name="SWdescription">La película se centra en el personaje de Anakin Skywalker, quien está siendo tentado por el Lado Oscuro de la Fuerza mientras</string>
+</resources>
