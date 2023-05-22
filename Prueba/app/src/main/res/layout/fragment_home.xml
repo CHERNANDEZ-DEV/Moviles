@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.laboratorio_05.ui.movie.viewmodel.MovieViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundLayout"
+        tools:context=".ui.movie.billboard.BillboardFragment">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextAppearance.MaterialComponents.Headline4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/billboardT"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_link_new_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="@dimen/e_gap"
+            android:layout_marginBottom="@dimen/n_gap"
+            android:contentDescription="add button"
+            app:backgroundTint="@color/buttonColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/plus" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/n_gap"
+            android:layout_marginTop="@dimen/e_gap"
+            android:layout_marginEnd="@dimen/n_gap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view_star_wars"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/n_gap"
+                    app:cardBackgroundColor="@color/cardLayout"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="@dimen/gap"
+                            android:src="@drawable/star_wars" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="@dimen/n_gap"
+                            android:paddingVertical="@dimen/gap">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SWtitle"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/movieTitle" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/cardLayout"
+                                android:text="@string/SWcalification"
+                                android:textColor="@color/calification"
+                                android:textSize="@dimen/movieTitle"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view_harrypotter_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/cardLayout"
+                    app:cardCornerRadius="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="@dimen/gap"
+                            android:src="@drawable/harry_potter" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="@dimen/n_gap"
+                            android:paddingVertical="@dimen/gap">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/HpTitle"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/movieTitle" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/cardLayout"
+                                android:text="@string/HpCalification"
+                                android:textColor="@color/calification"
+                                android:textSize="@dimen/movieTitle"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="n_gap">16dp</dimen>
+    <dimen name="e_gap">32dp</dimen>
+    <dimen name="xl_gap">64dp</dimen>
+    <dimen name="l_gap">48dp</dimen>
+    <dimen name="movieTitle">22sp</dimen>
+    <dimen name="gap">8dp</dimen>
+    <dimen name="h_image">200dp</dimen>
+    <dimen name="w_image">300dp</dimen>
+    <dimen name="textN">11sp</dimen>
+    <dimen name="sizeText">24sp</dimen>
+    <dimen name="sizeTextM">22sp</dimen>
+    <dimen name="textSizeLG">32sp</dimen>
+</resources>

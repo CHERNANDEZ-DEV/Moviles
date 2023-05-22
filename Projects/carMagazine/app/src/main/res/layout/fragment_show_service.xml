@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.cguerrah.carmagazine.ui.service.ServiceViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/_73278_carretera_ambiente_ecorregion_entorno_natural_paisaje_natural_500x"
+        android:backgroundTint="@color/background"
+        android:backgroundTintMode="multiply"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="274dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="48dp"
+            android:elevation="12dp"
+            android:src="@drawable/desktop_wallpaper_honda_civic_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="76dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="Date:"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="55dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="12/03/2023"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="Mechanic:"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="55dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="Juan Perez"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="Current Mileage:"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="55dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="54,000"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="Expected Mileage:"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="55dp"
+            android:fontFamily="@font/nunitobold"
+            android:text="65,000"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+
+
+
